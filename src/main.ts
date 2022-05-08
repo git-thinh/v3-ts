@@ -4,8 +4,6 @@ import { createApp } from 'vue'
 
 import { createPage } from "./createPage.ts";
 const app = createApp({
-	render: function() {
-		return createPage();
-	}
+	render: () => createPage()
 });
 app.mount(document.body);
