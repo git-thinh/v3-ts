@@ -1,5 +1,13 @@
 <template>
-	<h1>This is Theme-1: page = {{val}}</h1>
+	<h1>This is Theme-1: val = {{val}}</h1>
+	<hr>
+	<router-link to="/">
+		Home
+	</router-link>
+	|
+	<router-link to="/page1">
+		Page 1
+	</router-link>
 	<hr>
 	<h2>This is [slot]</h2>
 	<slot></slot>
@@ -10,15 +18,8 @@
 
 <script>
 	export default {
-		props: {
-			page: {
-				type: Number,
-				required: true,
-				default: 0
-			}
-		},
-		data(){
-			return{
+		data() {
+			return {
 				val: 0
 			}
 		},
