@@ -1,7 +1,7 @@
 import { fileURLToPath, URL } from 'url'
 import { resolve } from 'path'
 import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+import Vue from '@vitejs/plugin-vue'
 
 import Markdown from 'vite-plugin-md'
 import Inspect from 'vite-plugin-inspect'
@@ -11,7 +11,7 @@ import Pages from 'vite-plugin-pages'
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [
-		vue({
+		Vue({
 			include: [/\.vue$/, /\.md$/],
 		}),
 		Pages({
