@@ -7,6 +7,7 @@ import Markdown from 'vite-plugin-md'
 import Inspect from 'vite-plugin-inspect'
 
 import Pages from 'vite-plugin-pages'
+import Layouts from 'vite-plugin-vue-layouts'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -37,6 +38,10 @@ export default defineConfig({
 					}
 				}
 			},
+		}),
+		Layouts({
+			layoutsDir: 'src/layouts',
+			defaultLayout: 'default'
 		}),
 
 		Markdown(),

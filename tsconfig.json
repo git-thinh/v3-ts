@@ -5,7 +5,8 @@
     "baseUrl": ".",
     "types": [
       "vite/client",
-      "vite-plugin-pages/client"
+      "vite-plugin-pages/client",
+	  "vite-plugin-vue-layouts/client"
     ],
     "paths": {
       "@/*": ["./src/*"]

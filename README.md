@@ -3,7 +3,7 @@
 This template should help get you started developing with Vue 3 in Vite.
 
 - npm init vue@latest
-- yarn add vue-router vite-plugin-md vite-plugin-inspect
+- yarn add vue-router vite-plugin-md vite-plugin-inspect vite-plugin-vue-layouts vite-plugin-pages
 - [vite-plugin-pages](https://github.com/git-thinh/vite-plugin-pages)
 - [vite-plugin-vue-layouts](https://github.com/JohnCampionJr/vite-plugin-vue-layouts)
 
