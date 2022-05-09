@@ -41,7 +41,7 @@ export default defineConfig({
 		}),
 		Layouts({
 			layoutsDir: 'src/layouts',
-			defaultLayout: 'default'
+			defaultLayout: 'home'
 		}),
 
 		Markdown(),

@@ -1,8 +1,10 @@
+<script setup lang="ts">
+	import NavBar from '@/components/Navbar.vue'
+</script>
+
 <template>
-  <main class="px-4 py-10 text-center text-gray-700 dark:text-gray-200">
-    <div class="w-1/4 m-auto text-center text-gray-300 bg-teal-800">
-      Layout Sub Folder
-    </div>
-    <router-view />
-  </main>
+	<h1>Layout Sub Folder layout</h1>
+	<NavBar />
+	<hr>
+	<router-view />
 </template>
